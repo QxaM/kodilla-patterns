@@ -1,6 +1,9 @@
 package com.kodilla.patterns.strategy;
 
-public class Customer {
+import com.kodilla.patterns.strategy.predictors.BuyPredictor;
+
+public sealed class Customer
+        permits CorporateCustomer, IndividualCustomer, IndividualYoungCustomer{
 
     private final String name;
     protected BuyPredictor buyPredictor;
