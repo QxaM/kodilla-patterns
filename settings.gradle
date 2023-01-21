@@ -1,4 +1,5 @@
 rootProject.name = 'kodilla-patterns'
 include 'patterns'
 include 'kodilla-testing'
+include 'kodilla-streams'
 
